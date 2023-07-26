@@ -1,4 +1,4 @@
-module 1-bit_full_adder(input a,b,c,output s,co);
+module full_adder_1bit(input a,b,c,output s,co);
 	 wire s1,c1,c2;
 ha g1(a,b,s1,c1);
 ha g2(s1,c,c2,s);
